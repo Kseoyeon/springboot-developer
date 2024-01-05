@@ -18,12 +18,8 @@ spring:
       client:
         registration:
           google:
-            client-id: 468350384619-mo3c9i344nkk1uleulq790l6sj4lgnhh.apps.googleusercontent.com
-            client-secret: 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
+            client-id: client-id
+            client-secret: client-secret
             scope:
               - email
               - profile
-
-jwt:
-  issuer: ksy@gmail.com
-  secret_key: study-springboot
